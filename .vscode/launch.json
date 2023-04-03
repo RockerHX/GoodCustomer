@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome",
+            "program": "lib/main.dart",
+            "args": [
+                "--web-hostname=127.0.0.1",
+                "--web-port=8080",
+            ],
+            "preLaunchTask": "clear chrome cache"
+        },
+        {
             "name": "GoodCustomer",
             "request": "launch",
             "type": "dart"

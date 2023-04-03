@@ -8,7 +8,7 @@ class PageContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('当前页面$name'),
+        title: Text('当前页面-$name'),
       ),
     );
   }
